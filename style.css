@@ -1,0 +1,28 @@
+body {
+    background-color: #111;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#tabuleiro {
+    width: 300px;
+    height: 600px;
+
+    margin: 20px auto;
+
+    background-color: #222;
+    border: 3px solid white;
+
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+}
+
+.celula {
+    border: 1px solid #333;
+}
+
+.peca {
+    background-color: cyan;
+}
